@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 
 
-class Home extends Component {
+class Contact extends Component {
   render() {
     return (
       <div>
-          <h2>Home</h2>
-          {this.props.children}
+       <h1>Contact</h1>
+
       </div> 
     );
   }
 }
-export default Home
+
+export default Contact
